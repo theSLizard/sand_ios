@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'xcodebuild -UseModernBuildSystem=NO'
+        sh 'xcodebuild -UseModernBuildSystem=NO'
       }
     }
   }

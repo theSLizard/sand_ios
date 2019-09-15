@@ -1,0 +1,11 @@
+framework module SandFramework01 {
+  umbrella header "SandFramework01.h"
+
+  export *
+  module * { export * }
+}
+
+module SandFramework01.Swift {
+    header "SandFramework01-Swift.h"
+    requires objc
+}

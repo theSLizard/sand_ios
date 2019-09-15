@@ -1,0 +1,6 @@
+framework module Pods_sand {
+  umbrella header "Pods-sand-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -15,6 +15,17 @@
 		7D10FF3722F547CF00C8BB96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D10FF3522F547CF00C8BB96 /* LaunchScreen.storyboard */; };
 		7D10FF4222F547CF00C8BB96 /* sandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D10FF4122F547CF00C8BB96 /* sandTests.swift */; };
 		7D10FF4D22F547CF00C8BB96 /* sandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D10FF4C22F547CF00C8BB96 /* sandUITests.swift */; };
+		7DF5F425232E819300127EBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5F424232E819300127EBE /* AppDelegate.swift */; };
+		7DF5F427232E819300127EBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5F426232E819300127EBE /* ViewController.swift */; };
+		7DF5F42A232E819300127EBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF5F428232E819300127EBE /* Main.storyboard */; };
+		7DF5F42D232E819300127EBE /* sand_framework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5F42B232E819300127EBE /* sand_framework.xcdatamodeld */; };
+		7DF5F42F232E819500127EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF5F42E232E819500127EBE /* Assets.xcassets */; };
+		7DF5F432232E819500127EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF5F430232E819500127EBE /* LaunchScreen.storyboard */; };
+		7DF5F43D232E819500127EBE /* sand_frameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5F43C232E819500127EBE /* sand_frameworkTests.swift */; };
+		7DF5F448232E819500127EBE /* sand_frameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5F447232E819500127EBE /* sand_frameworkUITests.swift */; };
+		7DF5F45F232EB65D00127EBE /* UseFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5F45E232EB65D00127EBE /* UseFramework.swift */; };
+		7DF5F461232EBA1C00127EBE /* SandFramework01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF5F45C232EB5C100127EBE /* SandFramework01.framework */; };
+		7DF5F462232EBA1C00127EBE /* SandFramework01.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF5F45C232EB5C100127EBE /* SandFramework01.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +43,35 @@
 			remoteGlobalIDString = 7D10FF2522F547CE00C8BB96;
 			remoteInfo = sand;
 		};
+		7DF5F439232E819500127EBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D10FF1E22F547CE00C8BB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DF5F421232E819200127EBE;
+			remoteInfo = sand_framework;
+		};
+		7DF5F444232E819500127EBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D10FF1E22F547CE00C8BB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DF5F421232E819200127EBE;
+			remoteInfo = sand_framework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7DF5F463232EBA1C00127EBE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7DF5F462232EBA1C00127EBE /* SandFramework01.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7D10FF2622F547CE00C8BB96 /* sand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sand.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +88,22 @@
 		7D10FF4822F547CF00C8BB96 /* sandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D10FF4C22F547CF00C8BB96 /* sandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sandUITests.swift; sourceTree = "<group>"; };
 		7D10FF4E22F547CF00C8BB96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF5F422232E819200127EBE /* sand_framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sand_framework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF5F424232E819300127EBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DF5F426232E819300127EBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DF5F429232E819300127EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DF5F42C232E819300127EBE /* sand_framework.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sand_framework.xcdatamodel; sourceTree = "<group>"; };
+		7DF5F42E232E819500127EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DF5F431232E819500127EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DF5F433232E819500127EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF5F438232E819500127EBE /* sand_frameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sand_frameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF5F43C232E819500127EBE /* sand_frameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sand_frameworkTests.swift; sourceTree = "<group>"; };
+		7DF5F43E232E819500127EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF5F443232E819500127EBE /* sand_frameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sand_frameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF5F447232E819500127EBE /* sand_frameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sand_frameworkUITests.swift; sourceTree = "<group>"; };
+		7DF5F449232E819500127EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF5F45C232EB5C100127EBE /* SandFramework01.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SandFramework01.framework; path = Frameworks/SandFramework01.framework; sourceTree = "<group>"; };
+		7DF5F45E232EB65D00127EBE /* UseFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseFramework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +128,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7DF5F41F232E819200127EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF5F461232EBA1C00127EBE /* SandFramework01.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF5F435232E819500127EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF5F440232E819500127EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,7 +159,11 @@
 				7D10FF2822F547CE00C8BB96 /* sand */,
 				7D10FF4022F547CF00C8BB96 /* sandTests */,
 				7D10FF4B22F547CF00C8BB96 /* sandUITests */,
+				7DF5F423232E819300127EBE /* sand_framework */,
+				7DF5F43B232E819500127EBE /* sand_frameworkTests */,
+				7DF5F446232E819500127EBE /* sand_frameworkUITests */,
 				7D10FF2722F547CE00C8BB96 /* Products */,
+				7DF5F453232EA2EE00127EBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +173,9 @@
 				7D10FF2622F547CE00C8BB96 /* sand.app */,
 				7D10FF3D22F547CF00C8BB96 /* sandTests.xctest */,
 				7D10FF4822F547CF00C8BB96 /* sandUITests.xctest */,
+				7DF5F422232E819200127EBE /* sand_framework.app */,
+				7DF5F438232E819500127EBE /* sand_frameworkTests.xctest */,
+				7DF5F443232E819500127EBE /* sand_frameworkUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,6 +210,47 @@
 				7D10FF4E22F547CF00C8BB96 /* Info.plist */,
 			);
 			path = sandUITests;
+			sourceTree = "<group>";
+		};
+		7DF5F423232E819300127EBE /* sand_framework */ = {
+			isa = PBXGroup;
+			children = (
+				7DF5F424232E819300127EBE /* AppDelegate.swift */,
+				7DF5F426232E819300127EBE /* ViewController.swift */,
+				7DF5F428232E819300127EBE /* Main.storyboard */,
+				7DF5F42E232E819500127EBE /* Assets.xcassets */,
+				7DF5F430232E819500127EBE /* LaunchScreen.storyboard */,
+				7DF5F433232E819500127EBE /* Info.plist */,
+				7DF5F42B232E819300127EBE /* sand_framework.xcdatamodeld */,
+				7DF5F45E232EB65D00127EBE /* UseFramework.swift */,
+			);
+			path = sand_framework;
+			sourceTree = "<group>";
+		};
+		7DF5F43B232E819500127EBE /* sand_frameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DF5F43C232E819500127EBE /* sand_frameworkTests.swift */,
+				7DF5F43E232E819500127EBE /* Info.plist */,
+			);
+			path = sand_frameworkTests;
+			sourceTree = "<group>";
+		};
+		7DF5F446232E819500127EBE /* sand_frameworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DF5F447232E819500127EBE /* sand_frameworkUITests.swift */,
+				7DF5F449232E819500127EBE /* Info.plist */,
+			);
+			path = sand_frameworkUITests;
+			sourceTree = "<group>";
+		};
+		7DF5F453232EA2EE00127EBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DF5F45C232EB5C100127EBE /* SandFramework01.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,12 +309,67 @@
 			productReference = 7D10FF4822F547CF00C8BB96 /* sandUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		7DF5F421232E819200127EBE /* sand_framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF5F450232E819500127EBE /* Build configuration list for PBXNativeTarget "sand_framework" */;
+			buildPhases = (
+				7DF5F41E232E819200127EBE /* Sources */,
+				7DF5F41F232E819200127EBE /* Frameworks */,
+				7DF5F420232E819200127EBE /* Resources */,
+				7DF5F463232EBA1C00127EBE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sand_framework;
+			productName = sand_framework;
+			productReference = 7DF5F422232E819200127EBE /* sand_framework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DF5F437232E819500127EBE /* sand_frameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF5F451232E819500127EBE /* Build configuration list for PBXNativeTarget "sand_frameworkTests" */;
+			buildPhases = (
+				7DF5F434232E819500127EBE /* Sources */,
+				7DF5F435232E819500127EBE /* Frameworks */,
+				7DF5F436232E819500127EBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DF5F43A232E819500127EBE /* PBXTargetDependency */,
+			);
+			name = sand_frameworkTests;
+			productName = sand_frameworkTests;
+			productReference = 7DF5F438232E819500127EBE /* sand_frameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DF5F442232E819500127EBE /* sand_frameworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF5F452232E819500127EBE /* Build configuration list for PBXNativeTarget "sand_frameworkUITests" */;
+			buildPhases = (
+				7DF5F43F232E819500127EBE /* Sources */,
+				7DF5F440232E819500127EBE /* Frameworks */,
+				7DF5F441232E819500127EBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DF5F445232E819500127EBE /* PBXTargetDependency */,
+			);
+			name = sand_frameworkUITests;
+			productName = sand_frameworkUITests;
+			productReference = 7DF5F443232E819500127EBE /* sand_frameworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		7D10FF1E22F547CE00C8BB96 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "The SLizard";
@@ -204,6 +384,17 @@
 					7D10FF4722F547CF00C8BB96 = {
 						CreatedOnToolsVersion = 10.3;
 						TestTargetID = 7D10FF2522F547CE00C8BB96;
+					};
+					7DF5F421232E819200127EBE = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					7DF5F437232E819500127EBE = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 7DF5F421232E819200127EBE;
+					};
+					7DF5F442232E819500127EBE = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 7DF5F421232E819200127EBE;
 					};
 				};
 			};
@@ -223,6 +414,9 @@
 				7D10FF2522F547CE00C8BB96 /* sand */,
 				7D10FF3C22F547CF00C8BB96 /* sandTests */,
 				7D10FF4722F547CF00C8BB96 /* sandUITests */,
+				7DF5F421232E819200127EBE /* sand_framework */,
+				7DF5F437232E819500127EBE /* sand_frameworkTests */,
+				7DF5F442232E819500127EBE /* sand_frameworkUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +440,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7D10FF4622F547CF00C8BB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF5F420232E819200127EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF5F432232E819500127EBE /* LaunchScreen.storyboard in Resources */,
+				7DF5F42F232E819500127EBE /* Assets.xcassets in Resources */,
+				7DF5F42A232E819300127EBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF5F436232E819500127EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF5F441232E819500127EBE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,6 +499,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7DF5F41E232E819200127EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF5F45F232EB65D00127EBE /* UseFramework.swift in Sources */,
+				7DF5F42D232E819300127EBE /* sand_framework.xcdatamodeld in Sources */,
+				7DF5F427232E819300127EBE /* ViewController.swift in Sources */,
+				7DF5F425232E819300127EBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF5F434232E819500127EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF5F43D232E819500127EBE /* sand_frameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF5F43F232E819500127EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF5F448232E819500127EBE /* sand_frameworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +538,16 @@
 			isa = PBXTargetDependency;
 			target = 7D10FF2522F547CE00C8BB96 /* sand */;
 			targetProxy = 7D10FF4922F547CF00C8BB96 /* PBXContainerItemProxy */;
+		};
+		7DF5F43A232E819500127EBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DF5F421232E819200127EBE /* sand_framework */;
+			targetProxy = 7DF5F439232E819500127EBE /* PBXContainerItemProxy */;
+		};
+		7DF5F445232E819500127EBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DF5F421232E819200127EBE /* sand_framework */;
+			targetProxy = 7DF5F444232E819500127EBE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -309,6 +564,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				7D10FF3622F547CF00C8BB96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7DF5F428232E819300127EBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DF5F429232E819300127EBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DF5F430232E819500127EBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DF5F431232E819500127EBE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -550,6 +821,132 @@
 			};
 			name = Release;
 		};
+		7DF5F44A232E819500127EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7492MY9677;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = sand_framework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theSLizard.sand-framework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DF5F44B232E819500127EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7492MY9677;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = sand_framework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theSLizard.sand-framework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DF5F44C232E819500127EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7492MY9677;
+				INFOPLIST_FILE = sand_frameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theSLizard.sand-frameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sand_framework.app/sand_framework";
+			};
+			name = Debug;
+		};
+		7DF5F44D232E819500127EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7492MY9677;
+				INFOPLIST_FILE = sand_frameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theSLizard.sand-frameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sand_framework.app/sand_framework";
+			};
+			name = Release;
+		};
+		7DF5F44E232E819500127EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7492MY9677;
+				INFOPLIST_FILE = sand_frameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theSLizard.sand-frameworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sand_framework;
+			};
+			name = Debug;
+		};
+		7DF5F44F232E819500127EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7492MY9677;
+				INFOPLIST_FILE = sand_frameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theSLizard.sand-frameworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sand_framework;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -589,6 +986,33 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7DF5F450232E819500127EBE /* Build configuration list for PBXNativeTarget "sand_framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF5F44A232E819500127EBE /* Debug */,
+				7DF5F44B232E819500127EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF5F451232E819500127EBE /* Build configuration list for PBXNativeTarget "sand_frameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF5F44C232E819500127EBE /* Debug */,
+				7DF5F44D232E819500127EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF5F452232E819500127EBE /* Build configuration list for PBXNativeTarget "sand_frameworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF5F44E232E819500127EBE /* Debug */,
+				7DF5F44F232E819500127EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -599,6 +1023,16 @@
 			);
 			currentVersion = 7D10FF3122F547CE00C8BB96 /* sand.xcdatamodel */;
 			path = sand.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		7DF5F42B232E819300127EBE /* sand_framework.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7DF5F42C232E819300127EBE /* sand_framework.xcdatamodel */,
+			);
+			currentVersion = 7DF5F42C232E819300127EBE /* sand_framework.xcdatamodel */;
+			path = sand_framework.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

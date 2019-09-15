@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "95c4d59a073872b1bd425f6ab0384ddf"
+build_time: [1568566649, 154850000]
+inputs:
+  "/Users/theslizard/SANDBOX/FRONTEND/iOS/sand/sand/ViewController.swift": [9223372036, 854775807]
+  "/Users/theslizard/SANDBOX/FRONTEND/iOS/sand/sand/AppDelegate.swift": [9223372036, 854775807]
